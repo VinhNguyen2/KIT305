@@ -19,6 +19,7 @@ class ViewController: UIViewController {
             
     //        print(database.selectAllMovies())
             print(database.selectRafflesBy(id:1) ?? "Raffle not found")
+            print("Hello StarWen!!")
 
         }
 
